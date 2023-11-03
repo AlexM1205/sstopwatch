@@ -1,7 +1,7 @@
 body{
     display: grid;
     place-items: center;
-    background-image: url(/stephen-johnson-Q8_-Cc-IXRY-unsplash.jpg);
+    background-image: url(imgs/stephen-johnson-Q8_-Cc-IXRY-unsplash.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,28 +11,38 @@ body{
 
 .wrapper{
     border-radius:50px;
-    margin-top: 10rem;
-    padding: 5rem;
+    margin-top: 5rem;
+    padding: 2.5rem;
     color: #fff;
     backdrop-filter:blur(10px);
     background-color:rgba(0,0, 0, .5);
 }
 .wrapper h1{
-    font-size: 6.5rem;
+    font-size: 2.5rem;
 }
 .wrapper h2{
-    font-size: 4rem;
+    font-size: 1.6rem;
 }
 .wrapper p{
-    font-size: 3rem;
+    font-size: 1.2rem;
 }
 .wrapper button{
     background-color: #fff;
     outline: none;
     border: none;
-    border-radius: 40px;
+    border-radius: 20px;
     padding: .5rem 2rem;
     margin-right: .5rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
     cursor: pointer;
+}
+.wrapper button:nth-of-type(1){
+    background-color: rgb(0, 255, 85);
+}
+.wrapper button:nth-of-type(2){
+    background-color: rgb(255, 34, 34);
+}
+.wrapper button:nth-of-type(3){
+    background-color: rgb(44, 44, 136);
+    color: #fff;
 }
